@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+    background-image: url("img/fundo.jpg");
+    color: aliceblue;
+    margin-top: 7%;
+    font-family: Magic;
+    color:rgb(248, 205, 141);
+}
+
+.borderimg {
+    margin: 0 auto;
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(img/border.png) 30 round;
+    background-color: rgb(54, 54, 54);
+    display: flex;
+    
+    justify-content: center;   
+
+
+    height: 100%;
+    padding: 15px;
+    gap: 5px;
+  }
+.borderimg > div{
+    border-radius: 5px;
+    padding: 8px;
+ 
+}
+
+td{
+    width: 33%;
+}
+
+@font-face {
+    font-family: Magic;
+    src: url(Super-Mario-Bros--3.ttf);
+  }
